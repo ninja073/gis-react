@@ -160,18 +160,18 @@ html {
   display: flex;
   justify-content: center;
   align-items: center;
-  /*
-	background-image: url(download.png);
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position:bottom;
-  */
   background-color: #d8d7d7;
   column-gap: 3rem;
 }
-
+.home{
+  display: flex;
+  flex-direction: column;
+  padding: 10rem;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+}
 .form {
-  /* position: absolute; */
   width: 100%;
   max-width: 480px;
   background: #fff;

@@ -1,35 +1,35 @@
 import React from "react";
 const Login = () => {
   return (
-    <div class="container forms" id="container">
-      <div class="form sign-in">
+    <div className="container forms" id="container">
+      <div className="form sign-in">
         <form action="#">
-          <div class="header">Sign In</div>
-          <div class="social__media__container">
-            <a href="#" class="social codepen">
-              <i class="fa-brands fa-codepen"></i>
+          <div className="header">Sign In</div>
+          <div className="social__media__container">
+            <a href="#" className="social codepen">
+              <i className="fa-brands fa-codepen"></i>
             </a>
-            <a href="#" class="social google">
-              <i class="fa-brands fa-google"></i>
+            <a href="#" className="social google">
+              <i className="fa-brands fa-google"></i>
             </a>
-            <a href="#" class="social instagram">
-              <i class="fa-brands fa-instagram"></i>
+            <a href="#" className="social instagram">
+              <i className="fa-brands fa-instagram"></i>
             </a>
           </div>
-          <span class="under__social">
-            <a href="#" class="link signin-link">
+          <span className="under__social">
+            <a href="#" className="link signin-link">
               or use your email for registration
             </a>
           </span>
 
-          <div class="button-input-group">
-            <div class="group input-group">
+          <div className="button-input-group">
+            <div className="group input-group">
               <input type="text" placeholder="Name" required />
             </div>
-            <div class="group input-group">
+            <div className="group input-group">
               <input type="email" placeholder="Email" required />
             </div>
-            <div class="group input-group">
+            <div className="group input-group">
               <input
                 type="password"
                 placeholder="Password"
@@ -37,13 +37,13 @@ const Login = () => {
                 pattern=".{8,}"
               />
             </div>
-            <div class="alert-text signup__alert">
-              <span class="help__text">At least 8 character</span>
+            <div className="alert-text signup__alert">
+              <span className="help__text">At least 8 character</span>
             </div>
-            <div class="group button-group">
-              <button class="signup-btn">
+            <div className="group button-group" id="signInDiv">
+              {/* <button className="signup-btn">
                 <span>Sign Up</span>
-              </button>
+              </button> */}
             </div>
           </div>
         </form>
